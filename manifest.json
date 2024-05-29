@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Profile Changer",
+    "version": "1.0",
+    "description": "Change all profile pictures on LinkedIn to a single image.",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://www.linkedin.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
